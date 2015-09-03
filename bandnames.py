@@ -21,9 +21,9 @@ def title():
     ' ' ' This funtion chooses a random title for the name ' ' ' 
     return random.choice(titles)
     
-   def adj():
-       ' ' ' This function chooses a random adj for the band ' ' ' 
-       return random.choice(adjs)
+def adj():
+    ' ' ' This function chooses a random adj for the band ' ' ' 
+    return random.choice(adjs)
        
 def plural_noun():
     return random.choice(plural_nouns)
